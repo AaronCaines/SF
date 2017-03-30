@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background:  url("Resources/Background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+button {
+    background-color: white;
+    color: rgb(100,53,28);
+    padding: 14px 20px;
+    width: 140px;
+    margin-top: 1%;
+    margin-right: 2.3%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#user_login {
+    position: fixed;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+#center {
+    height: 50%;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+
+    position: absolute;
+
+    left: 25%;
+    right: 75%;
+    top:25%;
+    bottom:75%;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+#avatar {
+    height:150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+#buttons {
+    display:block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    height: 50%;
+}

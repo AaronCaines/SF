@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background:  url("Resources/Background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+button {
+    background-color: white;
+    color: rgb(100,53,28);
+    padding: 14px 20px;
+    width: 110px;
+    margin-top: 1%;
+    margin-right: 2.3%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#user_login {
+    position: fixed;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.fullscreenDiv {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.center {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    position: fixed;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    margin-left: -180px; /*width*/
+    margin-top: -50px; /*height*/
+}
+
+
+

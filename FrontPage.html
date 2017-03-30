@@ -1,0 +1,52 @@
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>SmartRefrigerator</title>
+    <link rel="stylesheet" href="homePage1.css">
+</head>
+
+
+
+<body>
+
+<div class='fullscreenDiv'>
+    <div class="center">
+        Smart Refrigerator System
+        <div>
+            <button id="admin" style="float: left;" onClick="tingz(this.id)"><b>Admin</b></button>
+            <button id = "chef" style="float: left;" onClick="tingz(this.id)"><b>Chef</b></button>
+            <button id = "user" style="float: left;" onClick="tingz(this.id)"><b>User</b></button>
+        </div>
+
+    </div>
+</div>
+
+<form name="data" method="POST" action="homePage2.php">
+<input type="hidden" name="data">
+</form>
+
+
+<script type="text/javascript">
+
+function tingz(userIdTingz){
+
+    document.data.data.value = userIdTingz;
+    document.data.submit();}
+
+</script>
+
+
+
+<script type="text/javascript">
+    function getUserID(clicked_id)
+    {
+        window.location.href = 'homePage2.html?userID='+clicked_id;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background:  url("Resources/Background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+input[type=password] {
+    background-color: rgb(100,53,28);
+    opacity: 0.8;
+    color:white;
+    width: 200px;
+    padding: 10px;
+    border:none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: white;
+    color: rgb(100,53,28);
+    width: 110px;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.picture_container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    text-align: center;
+    width: 15%;
+    border-radius: 50%;
+}
+
+label {
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    margin-bottom: 0.5%;
+}
+
+
