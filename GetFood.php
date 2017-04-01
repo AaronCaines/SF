@@ -80,16 +80,17 @@ function trigger() {
              ingrs += (row.cells[0].innerHTML);
 
         } else {
-
+            alert(row.elems[0].innerHTML + "has insufficient quantity.");
         }
 
-        amts += "|";
-        amts += ingrs;
-
-        document.data.passArgs.value = amts;
-        document.data.submit();
 
     }
+
+    amts += "|";
+    amts += ingrs;
+
+    document.data.passArgs.value = amts;
+    document.data.submit();
 
 }
 
