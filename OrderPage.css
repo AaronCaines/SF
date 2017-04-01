@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background:  url("Resources/Background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+#user_login {
+    position: fixed;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.fullscreenDiv {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.center {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    position: fixed;
+    font-size: 30px;
+    top: 50%;
+    border: thick;
+    left: 50%;
+    margin-left: -180px; /*width*/
+    margin-top: -50px; /*height*/
+}
+
+.labelType{
+
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+#button1{
+    width: 12.5%;
+}
+
+#specific{
+
+margin-top: 5%;
+
+}
+
