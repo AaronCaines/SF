@@ -1,15 +1,52 @@
-
-#search {
-    text-align: center;
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background:  url("Resources/Background.png") no-repeat center center fixed;
+    background-size: cover;
+    text-align:center;
 }
+
+form {
+  margin-top: 10%;
+}
+
+.search {
+  padding:8px 15px;
+  background:#ffffff;
+  border:1px solid rgb(100,53,28);
+  width: 500px;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:0px;
+  border:2px solid rgb(100,53,28);
+  background-color:rgb(100,53,28);
+  color:#ffffff;
+  width: 100px;
+  cursor: pointer;
+}
+
 
 table {
     color: #333; /* Lighten up font color */
     font-family: Helvetica, Arial, sans-serif; /* Nicer font */
-    width: 640px;
     border-collapse:
     collapse; border-spacing: 0;
 }
+
+table.center {
+    width:640px;
+    height:300px;
+    position: absolute;
+    background-color:#d9d9d9;
+    margin-left:-320px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    margin-bottom: 10%;
+    top:50%;
+    left:50%;
+  }
 
 
 
@@ -23,4 +60,15 @@ font-weight: bold; /* Make sure they're bold */
 td {
 background: #FAFAFA; /* Lighter grey background */
 text-align: center; /* Center our text */
+}
+
+#take {
+  margin-top: 1%;
+  position:relative;
+  padding:6px 15px;
+  border:2px solid #ffffff;
+  background-color:#ffffff;
+  color:rgb(100,53,28);
+  width: 100px;
+  cursor: pointer;
 }

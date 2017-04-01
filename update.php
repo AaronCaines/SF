@@ -13,7 +13,7 @@ $amtsArr = explode(",", $amts);
 $namesArr = explode(",", $names);
 
 $dbconn = pg_connect("host=web0.site.uottawa.ca port=15432 dbname=ahadz019 user=ahadz019
-password=SecurePassword1234") or die('kill yourself');
+password=SecurePassword1234") or die('connection error');
 
 for ($i = 0; $i < count($amtsArr); $i++) {
     $query = "UPDATE smart_fridge.ingredient SET count = count - " . $amtsArr[$i] . " WHERE name = " . "'" . $namesArr[$i] . "'";
